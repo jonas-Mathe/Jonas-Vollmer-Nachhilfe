@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang = "de">
+    <head>
+     <title>volmer Nachhilfe - Lektion 2</title>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta name="description" content="Lektion 2: Flächeninhalte von Körpern berechnen. Lerne wie man Rechtecke, Dreiecke und mehr berechnet.">
+          <meta name="author" content="Jonas Vollmer">
+          <meta http-equiv="X-UA-Compatible" content="ie=edge">
+          <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://unpkg.com; script-src 'self' https://unpkg.com; img-src 'self' https: data:; style-src 'self' 'unsafe-inline';">
+         <link rel="stylesheet" href="style.css">
+		 <script src="https://unpkg.com/mathlive" defer></script>
+   </head>
+     <body>
+	    <h1>Lektion 2: Flächeninhalte von Körpern</h1>
+	    <div>
+	    	<h2>Was sind Flächeninhalte?</h2>
+	    	<p>Der Flächeninhalt ist der Platz, den eine Form einnimmt. Man misst ihn in Quadratmetern (m²), Quadratzentimetern (cm²), etc.</p>
+	    </div>
+	    <div>
+	    	<h3 class="blue-element">Fläche eines Rechtecks</h3>
+	    	<p>Die Fläche eines Rechtecks berechnet man mit der Formel:<br>
+	    	<strong>Fläche = Länge × Breite</strong><br>
+	    	Beispiel: Ein Rechteck hat die Länge 5cm und die Breite 3cm.<br>
+	    	Fläche = 5cm × 3cm = <strong>15cm²</strong></p>
+	    </div>
+	    <div>
+	    	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOSAza49CQjKG4ibkjufLjEy5i1wF_VDgTAw&s" alt="Rechteck mit Länge und Breite" loading="lazy">
+	    </div>
+	    <div class="mathe-container">
+	    	<h2>Berechne die Fläche:</h2>
+	    	<h2>Ein Rechteck: Länge = 8cm, Breite = 4cm<br>Fläche = ?</h2>
+	    	<math-field id="math-field-aufgabe1" placeholder="Lösung..." virtual-keyboard-mode="onfocus"></math-field>
+	    	<button id="pruefen-knopf-aufgabe1">Prüfen</button>
+	    	<p id="antwort-text-aufgabe1"></p>
+	    	<div class="progress-bar-small hidden" id="progress-1">
+	    		<div class="progress-fill-small"></div>
+	    	</div>
+	    </div>
+	    <div>
+	    	<h3 class="blue-element">Fläche eines Dreiecks</h3>
+	    	<p>Die Fläche eines Dreiecks berechnet man mit der Formel:<br>
+	    	<strong>Fläche = 1/2 × Grundseite × Höhe</strong><br>
+	    	Beispiel: Ein Dreieck hat die Grundseite 6cm und die Höhe 4cm.<br>
+	    	Fläche = 1/2 × 6cm × 4cm = 1/2 × 24cm² = <strong>12cm²</strong></p>
+	    </div>
+	    <div>
+	    	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBaKDzVWuY49OjeYl26JNcz1BcfBW6TwyPXA&s" alt="Dreieck mit Grundseite und Höhe" loading="lazy">
+	    </div>
+	    <div class="mathe-container2">
+	    	<h2>Berechne die Fläche:</h2>
+	    	<h2>Ein Dreieck: Grundseite = 10cm, Höhe = 5cm<br>Fläche = ?</h2>
+	    	<math-field id="math-field-aufgabe2" placeholder="Lösung..." virtual-keyboard-mode="onfocus"></math-field>
+	    	<button id="pruefen-knopf-aufgabe2">Prüfen</button>
+	    	<p id="antwort-text-aufgabe2"></p>
+	    	<div class="progress-bar-small hidden" id="progress-2">
+	    		<div class="progress-fill-small"></div>
+	    	</div>
+	    </div>
+	    <div>
+	    	<h3 class="blue-element">Fläche eines Kreises</h3>
+	    	<p>Die Fläche eines Kreises berechnet man mit der Formel:<br>
+	    	<strong>Fläche = π × Radius * 2 oder * Durchmesser </strong><br>
+	    	(π ist etwa 3,14)<br>
+	    	Beispiel: Ein Kreis hat den Radius 3cm.<br>
+	    	Fläche = 3,14 × 3 * 2 = 3,14 × 6 ≈ <strong>18,84cm²</strong></p>
+	    </div>
+	    <div class="mathe-container3">
+	    	<h2>Berechne die Fläche:</h2>
+	    	<h2>Ein Kreis: Radius = 2cm<br>Fläche ≈ ? (nutze π = 3,14)</h2>
+	    	<math-field id="math-field-aufgabe3" placeholder="Lösung..." virtual-keyboard-mode="onfocus"></math-field>
+	    	<button id="pruefen-knopf-aufgabe3">Prüfen</button>
+	    	<p id="antwort-text-aufgabe3"></p>
+	    	<div class="progress-bar-small hidden" id="progress-3">
+	    		<div class="progress-fill-small"></div>
+	    	</div>
+	    </div>
+	    <div>
+	    	<h2>Glückwunsch, du hast Lektion 2 abgeschlossen!</h2>
+	    	<p>Du kannst jetzt zurück zur Startseite gehen:</p>
+	    	<div id="weiter-container" class="weiter-container hidden">
+	    		<button id="weiter-button" class="weiter-button">← Zurück zur Lektion 1</button>
+	    	</div>
+	    </div>
+	    <script src="lektion2.js" defer></script>
+		<script src="script.js" defer></script>
+</body>
+</html>
