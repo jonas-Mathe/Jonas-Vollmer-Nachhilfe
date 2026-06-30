@@ -167,8 +167,7 @@ body {
     flex-direction: column;
     height: auto;
     margin: 0;                 
-    display: flex;
-    flex-wrap: wrap;           
+    display: flex;          
     gap: 15px;               
     width: fit-content;
     max-width: 100%;
@@ -414,3 +413,16 @@ div[data-keyboard],
   min-width: 0 !important; 
   padding: 0 !important;
 }
+
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
