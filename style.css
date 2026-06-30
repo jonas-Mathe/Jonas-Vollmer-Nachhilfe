@@ -165,8 +165,7 @@ body {
     display: flex;
     flex-direction: column;
     height: auto;
-    flex-grow: 1;
-    width: fit-content;
+    width: 100%;
 }
 
 #halt2 {
@@ -338,7 +337,7 @@ padding: 20px;
     transform: scale(0.98);
 }
 
-/* Sicherheits- und Fehlerbehandlung Klassen */
+
 p.success {
     color: #28a745;
     font-weight: bold;
