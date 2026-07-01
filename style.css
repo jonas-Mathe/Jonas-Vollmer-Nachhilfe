@@ -94,31 +94,30 @@ color: blue;
 }
 
 #pruefen-knopf3{
-margin-top: 10px;
+margin-right: auto;
 padding: 10px;
 cursor: pointer;
+flex-grow: 1;
+object-fit: contain;
 }
 
 
 
 #antwort-text3 {
     font-weight: bold;
-    margin-top: 7%;
+    margin-right: auto;
     font-size: 18px;
-    width: 30%;
     object-fit: contain;
-    max-width: 80%;
     flex-grow: 1;
 }
 
 
 #pruefen-knopf {
-margin-top: 7%;
-padding: 7%;
+margin-right: auto;
+padding: 10px;
 cursor: pointer;
 object-fit: contain;
-max-width: 80%;
-width: 70%;
+flex-grow: 1;
 }
 
 
@@ -127,6 +126,8 @@ width: 70%;
     font-weight: bold;
     margin-top: 15px;
     font-size: 18px;
+    object-fit: contain;
+    flex-grow: 1;
 }
 
 button {
@@ -140,17 +141,21 @@ button {
 }
 
 #pruefen-knopf2 {
-margin-top: 10px;
+object-fit: contain;
+margin-right: auto;
 padding: 10px;
 cursor: pointer;
+flex-grow: 1;
 }
 
 
 
 #antwort-text2 {
     font-weight: bold;
-    margin-top: 15px;
+    margin-right: auto;
     font-size: 18px;
+    flex-grow: 1;
+    object-fit: contain;
 }
 
 button:hover {
@@ -264,15 +269,20 @@ width: fit-content;
 }
 
 #pruefen-knopf4 {
-margin-top: 10px;
+margin-right: auto;
 padding: 10px;
 cursor: pointer;
+flex-grow: 1;
+object-fit: contain;
+
 }
 
 #antwort-text4 {
     font-weight: bold;
-    margin-top: 15px;
+    margin-right: auto;
     font-size: 18px;
+    flex-grow: 1;
+    object-fit: contain;
 }
 
 #unglaublich2 {
@@ -289,9 +299,11 @@ align-items: flex-start;
 }
 
 #pruefen-knopf5 {
-margin-top: 10px;
+margin-right: auto;
 padding: 10px;
 cursor: pointer;
+object-fit: contain;
+flex-grow: 1;
 }
 
 .mathe-container {
@@ -299,17 +311,21 @@ cursor: pointer;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    width: fit-content;
+    width: 50%;
+    max-width: 100%;
     border: 6px none;
     margin: 20px 0px 10px 0px;
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 #antwort-text5 {
     font-weight: bold;
-    margin-top: 15px;
+    object-fit: contain;
+    margin-right: auto;
     font-size: 18px;
+    flex-grow: 1;
 }
 
 #warumdas {
@@ -322,7 +338,7 @@ border: 2px none;
 border-radius: 6px;
 background-color: #ffffff;
 box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-margin: auto;
+margin-right: auto;
 }
 
 #flächeninhalt {
@@ -388,31 +404,41 @@ p.warning {
 #math-field-rechnung {
 cursor: text;
 font: bold 16px Arial, sans-serif;
-width: 100%;
+object-fit: contain;
+margin-right: auto;
+flex-grow: 1;
 }
 
 #math-field-rechnung2 {
 cursor: text;
 font: bold 16px Arial, sans-serif;
-width: 100%;
+margin-right: auto;
+object-fit: contain;
+flex-grow: 1;
 }
 
 #math-field-rechnung3 {
 cursor: text;
 font: bold 16px Arial, sans-serif;
-width: 100%;
+margin-right: auto;
+object-fit: contain;
+flex-grow: 1;
 }
 
 #math-field-rechnung4 {
 cursor: text;
 font: bold 16px Arial, sans-serif;
-width: 20vw;
+margin-right: auto;
+object-fit: contain;
+flex-grow: 1;
 }
 
 #math-field-rechnung5 {
 cursor: text;
 font: bold 16px Arial, sans-serif;
-width: 20vw;
+object-fit: contain;
+margin-right: auto;
+flex-grow: 1;
 }
 
 div[data-keyboard], 
