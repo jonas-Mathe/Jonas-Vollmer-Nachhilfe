@@ -64,23 +64,33 @@ background-color: lightblue;
 width: fit-content;  
 }
 
-#das-bild{
-border: solid;
+#das-bild {
+border: none;
 border-radius: 5px;
 object-fit: contain;
-width: 30vw;
+width: 90%;
+max-width: 100%;
+margin-right: auto;
+flex-grow: 1;
 }
+
+#das-bild2 {
+display: flex;
+flex-direction: column;
+max-width: 100%;
+width: fit-content;
+padding: 20px;
+margin: 20px 0px 10px 0px;
+background-color: #ffffff;
+border: 2px none;
+box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+border-radius: 6px;
+}
+    
 
 #fettText {
 font-weight: bold;
 color: blue;	
-}
-
-#best {
-border: 1px solid #ccc;
-padding: 5px;
-display: flex;
-width: 20px;
 }
 
 #pruefen-knopf3{
@@ -89,40 +99,29 @@ padding: 10px;
 cursor: pointer;
 }
 
-.mathe-container3 {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    display: flex;
-    flex-direction: column;
-}
+
 
 #antwort-text3 {
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: 7%;
     font-size: 18px;
-    width: 30vw;
+    width: 30%;
     object-fit: contain;
-    max-width: 50vw;
+    max-width: 80%;
+    flex-grow: 1;
 }
 
 
 #pruefen-knopf {
-margin-top: 10px;
-padding: 10px;
+margin-top: 7%;
+padding: 7%;
 cursor: pointer;
 object-fit: contain;
-max-width: 50vw;
+max-width: 80%;
+width: 70%;
 }
 
-.mathe-container {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 
-}
 
 #antwort-text {
     font-weight: bold;
@@ -146,15 +145,7 @@ padding: 10px;
 cursor: pointer;
 }
 
-.mathe-container2 {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    width: fit-content;
-    border: 1px;
-    margin: 10px 5px 10px 5px;
-}
+
 
 #antwort-text2 {
     font-weight: bold;
@@ -172,12 +163,10 @@ body {
     background-color: #f0f0f0;
     padding: 20px;
     flex-direction: column;
-    height: auto;
     margin: 0;                 
-    display: flex;          
-    gap: 15px;               
-    width: fit-content;
+    display: flex;          ;               
     max-width: 100%;
+    width: 100%;
 }
 
 
@@ -185,28 +174,65 @@ body {
 #halt2 {
 padding: 20px;
 display: flex;
-gap: 10px;
+gap: 20px;
 width: fit-content;
 border: 2px none;
 border-radius: 6px;
 background-color: #ffffff;
 box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-margin: 5px 5px 10px 0px;
+margin: 20px 5px 10px 0px;
+max-width: 100%;
 }
 
 #halt1 {
 padding: 20px;
-border: solid;
-border-radius: 5px; 
+border: 2px none;
+border-radius: 6px;
+background-color: #ffffff;
+box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+margin: 20px 5px 10px 0px;
+width: fit-content;
+max-width: 100%;
+display: flex;
+gap: 20px;
+}
+
+#digga {
+border: none;
+object-fit: contain;
+width: 90%;
+margin-right: auto;
+flex-grow: 1;
+}
+
+#munuk {
+display: flex;
+gap: 20px;
+flex-direction: column;
+padding: 20px;
+box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+width: fit-content;
+max-width: 100%;
+border: 2px none;
+background-color: #ffffff;
+margin: 20px 5px 10px 0px;
+}
+
+#like {
+object-fit: contain;
+width: 90%;
+margin-right: auto;
+flex-grow: 1;
+border: none;
 }
 
 #einfach {
 border: solid;
 border-radius: 5px;
 display: flex;
-gap: 10px;
+gap: 20px;
 flex-direction: column;
-padding: 10px;
+padding: 20px;
 margin: 20px 20px 20px 0px;
 align-items: flex-start;
 }
@@ -214,7 +240,7 @@ align-items: flex-start;
 #unglaublich {
 padding: 20px;
 display: flex;
-gap: 10px;
+gap: 20px;
 width: fit-content;
 border: 2px none;
 border-radius: 6px;
@@ -243,16 +269,6 @@ padding: 10px;
 cursor: pointer;
 }
 
-.mathe-container4 {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    width: fit-content;
-    border: 1px;
-    margin: 10px 5px 10px 5px;
-}
-
 #antwort-text4 {
     font-weight: bold;
     margin-top: 15px;
@@ -261,7 +277,7 @@ cursor: pointer;
 
 #unglaublich2 {
 display: flex;
-gap: 10px;
+gap: 20px;
 flex-direction: column;
 padding: 20px;
 width: fit-content;
@@ -278,14 +294,16 @@ padding: 10px;
 cursor: pointer;
 }
 
-.mathe-container5 {
+.mathe-container {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     width: fit-content;
-    border: 1px;
-    margin: 10px 5px 10px 5px;
+    border: 6px none;
+    margin: 20px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 #antwort-text5 {
@@ -296,7 +314,7 @@ cursor: pointer;
 
 #warumdas {
 display: flex;
-gap: 10px;
+gap: 20px;
 flex-direction: column;
 padding: 20px;
 width: fit-content;
@@ -304,12 +322,12 @@ border: 2px none;
 border-radius: 6px;
 background-color: #ffffff;
 box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-margin: 20px 5px 10px 0px;
+margin: auto;
 }
 
 #flächeninhalt {
 display: flex;
-gap: 10px;
+gap: 20px;
 flex-direction: column;
 width: fit-content;
 border: 2px none;
@@ -425,11 +443,10 @@ html, body {
     width: 100%;
     margin: 0;
     padding: 0;
-    overflow-x: hidden; 
 }
 
 img, video {
     max-width: 100%;
-    height: auto;
+    object-fit: contain;
 }
 
